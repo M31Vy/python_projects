@@ -9,5 +9,11 @@
 ## 模型预测
 可以使用以下命令依靠项目中的best.pt文件进行模型识别：
 ```
-yolo predict model='.pt文件位置' source='需要进行识别的论文图片位置'
+yolo predict model='.pt文件位置' source='需要识别的论文图片位置'
+```
+也可以用以下代码进行识别并获取数据形式的识别结果：
+```
+from ultralytics import YOLO
+model = YOLO('.pt文件位置')
+results = model('需要识别的论文图片位置')
 ```
