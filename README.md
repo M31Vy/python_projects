@@ -17,3 +17,5 @@ from ultralytics import YOLO
 model = YOLO('.pt文件位置')
 results = model('需要识别的论文图片位置')
 ```
+## 识别结果示例
+![4](https://github.com/M31Vy/python_projects/assets/61035763/69c01c6f-c9cc-4713-977b-4556231079cd)
