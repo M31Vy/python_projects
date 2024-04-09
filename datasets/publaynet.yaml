@@ -1,0 +1,11 @@
+path: /kaggle/input/publaynet/datasets
+train: images/train
+val: images/val
+test:
+
+names:
+  0: text
+  1: title
+  2: list
+  3: table
+  4: figure
