@@ -16,7 +16,7 @@
 | table     | 1000       | 282           | 0.98      | 0.972 | 0.989     | 0.959         |
 | figure    | 1000       | 322           | 0.972     | 0.978 | 0.98      | 0.949         |
 ## 模型预测
-模型位置：**./output/runs/detect/train/weights/best.pt**
+**模型位置：./output/runs/detect/train/weights/best.pt**
 
 可以使用以下命令依靠上述的best.pt文件进行模型识别：
 ```
