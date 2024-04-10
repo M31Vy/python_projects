@@ -1,0 +1,9 @@
+path: /kaggle/input/fruitkaggle/fruit
+train: images/train
+val: images/train
+test: test_zip/test
+
+names:
+  0: apple
+  1: banana
+  2: orange
