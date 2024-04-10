@@ -7,7 +7,7 @@
 完整数据集下载可到https://developer.ibm.com/exchanges/data/all/publaynet/  
 本项目随机选取了其中5000个文件进行训练以及验证。
 ## 模型预测
-可以使用以下命令依靠项目中的best.pt文件进行模型识别：
+可以使用以下命令依靠项目中的./output/runs/detect/train/weights/best.pt文件进行模型识别：
 ```
 yolo predict model='.pt文件位置' source='需要识别的论文图片位置'
 ```
