@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Upload{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form action = "/auth/success" method="post" accept="xlsx" enctype="multipart/form-data">
+    <input class="form-control" type="file" name="file" value="请上传excel文件">
+    <input type="submit" value="提交">
+  </form>
+{% endblock %}
